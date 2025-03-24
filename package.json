@@ -1,0 +1,31 @@
+{
+  "name": "notes-devops-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "notes",
+    "express",
+    "sequelize",
+    "tdd",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Application de gestion de notes avec TDD, Express.js et SQLite",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sequelize": "^6.37.6",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.1.0"
+  }
+}
